@@ -93,7 +93,7 @@ inject the scripts it needs. We will rely on the blocks to add our own
 stylesheets and scripts.
 
 Add three blocks to our default layout:
-```hmtl
+```html
 <!DOCTYPE html>
   <head>
     <title><%= @document.title %> | My Awesome Website</title>
@@ -123,7 +123,7 @@ then observe the change in the browser.
 ##Stylesheets
 Now to add some style. Create a file `src/documents/styles/style.css.styl` and
 write a couple of rules to modify our existing content:
-```styl
+```css
 body
   color: #333
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Comic Sans", sans-serif
@@ -138,7 +138,7 @@ h2
 ```
 
 To include our stylesheet in our pages we will need to update our styles block. Change the line in our template to:
-```html
+```
 <%- @getBlock("styles").add(["/styles/style.css"]).toHMTL() %>
 ```
 
