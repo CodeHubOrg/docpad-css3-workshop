@@ -15,7 +15,7 @@ thought.
 
 Place the following content in your new `default.html.eco`:
 
-```html
+```eco
 <!DOCTYPE html>
   <head>
     <title><%= @document.title %> | My Awesome Website</title>
