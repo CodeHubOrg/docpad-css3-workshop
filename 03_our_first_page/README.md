@@ -56,8 +56,7 @@ and in `about.html`
 ```html
 ---
 layout: "default"
-title: "From Animal Crackers to Zuckercookies, nobody knows biscuits like we
-knows biscuits."
+title: "From Animal Crackers to Zuckercookies, nobody knows biscuits like we knows biscuits."
 author: "Robert 'Rich-Tea' Thumpston Jnr."
 ---
 
