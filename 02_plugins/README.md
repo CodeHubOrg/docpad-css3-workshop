@@ -9,15 +9,12 @@ development, pretty URLs, scheduling posts and all sorts of serious juju.
 
 You can find the complete listings of DocPad plugins in the [npm directory](https://www.npmjs.org/browse/keyword/docpad-plugin) or in the DocPad's own [documentation](http://docpad.org/docs/plugins).
 
-The command for installing a plugin is
-```
-docpad install #{thePluginName}
-```
+The command for installing a plugin is `docpad install #{thePluginName}`
 
 For my examples I will be using the Eco templating language, CoffeeScript for JavaScript, and Stylus for pimping CSS. You could as easily follow along with your preprocessors of choice, or vanilla CSS.
 
 I will also be using the livereload plugin so DocPad can listen for changes to
-our code and reload our site in the browser without us needing to refresh.
+our code and reload our site in the browser without our needing to refresh.
 
 ```
 docpad install eco
