@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+  <head>
+    <title><%= @document.title %> | My Awesome Website</title>
+    <%- @getBlock("meta").toHTML() %>
+    <%- @getBlock("styles").add(["/styles/style.css"]).toHMTL() %>    
+  </head>
+  <body>
+    <h1><%= @document.title %></h1>
+    <h2>By <%= @document.author %></h2>
+    <%- @content %>
+    <div id="object" class="animate"></div>    
+    <%- @getBlock("scripts").toHTML() %>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body
+  color: #333
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Comic Sans", sans-serif
+  font-size: 1.3em
+  text-align: center
+
+h1
+  color: #111
+
+h2
+  color: #666
+
+#object
+  background-image: url("../images/custard_cream_prince_of_biscuits.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  height: 367px
+  margin: auto
+  width: 464px
+
+@keyframes pulse
+  0%
+    -webkit-transform scale(1.0) rotate(0deg) translateX(0%) translateY(0%)
+  17%
+    -webkit-transform scale(0.5) rotate(-145deg) translateX(70%) translateY(-30%)
+  22%
+    -webkit-transform scale(2) rotate(-10deg) translateX(15%) translateY(-10%)
+  66%
+    -webkit-transform scale(1.3) rotate(145deg) translateX(-45%) translateY(-50%)
+  100%
+    -webkit-transform scale(1.0) rotate(0deg) translateY(0%)
+
+@keyframes disco
+  0%
+    background-color: yellow
+  50%
+    background-color: pink
+  100%
+    background-color: yellow
+
+body
+  animation: disco 15s infinite
+  -webkit-animation: disco 15s infinite
+
+.animate 
+  animation: pulse 5s infinite
+  -webkit-animation: pulse 5s infinite

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+  <head>
+    <title><%= @document.title %> | My Awesome Website</title>
+  </head>
+  <body>
+    <h1><%= @document.title %></h1>
+    <h2>By <%= @document.author %></h2>
+    <%- @content %>
+  </body>
+</html>

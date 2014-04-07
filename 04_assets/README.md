@@ -29,10 +29,9 @@ If we save that and reload our browser, the page now has the necessary scripts
 for the livereload plugin to automatically refresh the browser when it detects a modification to our source. 
 
 ##Images
-Let's verify the plugin is working by adding finding an image befitting our company and adding it to every page. Place the image in `files/images` and add an image tag to
-the layout.
+Let's verify the plugin is working by finding an image befitting our company and adding it to every page. Place an image in `files/images` and add an image tag to the layout. For example:
 ```html
-<img src="/images/custard_cream_prince_of_biscuits.png" alt="The Bourbon: A biscuit of distinction." />
+<img src="/images/custard_cream_prince_of_biscuits.png" alt="The custard cream: A biscuit of distinction." />
 ```
 then observe the change in the browser.
 
@@ -61,4 +60,3 @@ To include our stylesheet in our pages we will need to update our styles block. 
 ##Scripts
 The process for adding scripts is the same. Create files in `src/documents/scripts` and add them to the scripts block in the default layout.
 
-TODO more here
