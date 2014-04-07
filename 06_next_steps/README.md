@@ -51,15 +51,18 @@ choose to accept it, is to use the new CSS3 animation rules to build the most
 dynamic biscuit dealership website the world has ever seen. 
 
 There are just 2 rules. Number 1 - no JavaScript. Number 2 - no Flash. I have
-prepared a repo with 
+prepared a repo with lots of examples of transitions, 2D transforms and 3D
+transforms. You can find it at https://github.com/CodeHubOrg/css-animations/.
+
+#Alternatively
+If you are more interested in  DocPad than CSS3 animations a different path
+you might take is to implement a simple blog in DocPad. The
 
 #A Note on Browser Support
 
 Browser support for the new rules is still a little patchy. The examples on this
-page and in the supporting files should work in Chrome.
+page and in the supporting files will work best in Chrome.
 
 #A Note on Deployment
 
-Instructions for deployment on various platforms can be found in the DocPad
-documetation - http://docpad.org/docs/deploy. There isn't any reason to
-duplicate that content here, but if you decide to 
+Instructions for deployment on various platforms can be found in the DocPad documetation - http://docpad.org/docs/deploy.

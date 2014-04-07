@@ -32,7 +32,7 @@ for the livereload plugin to automatically refresh the browser when it detects a
 Let's verify the plugin is working by adding finding an image befitting our company and adding it to every page. Place the image in `files/images` and add an image tag to
 the layout.
 ```html
-<img src="/images/bourbon.jpg" alt="The Bourbon: A biscuit of distinction." />
+<img src="/images/custard_cream_prince_of_biscuits.png" alt="The Bourbon: A biscuit of distinction." />
 ```
 then observe the change in the browser.
 
