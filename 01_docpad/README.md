@@ -45,3 +45,14 @@ Skeleton`, which will set up a project with the standard directory structure.
 The `docpad run` command also starts a web server on http://localhost:9778. 
 
 You can stop the server by pressing `CTRL + C`
+
+#Standard Project Structure
+
+Open a new terminal window and navigate to our directory and list the content:
+```
+cd ~/path/to/our/site
+ls
+```
+
+Now we can see the standard project structure for a DocPad site. The different
+facets are explained very succinctly in the DocPad documentation http://docpad.org/docs/overview, which you should read now. TL;DR `src` is where your source files go, `out` is where DocPad will generate rendered files, this is the public part of your website, `docpad.coffee` is your project configuration file.
