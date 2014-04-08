@@ -48,15 +48,20 @@ body
 
 This. Just, this. Now we're talking Bob's language. Your challenge, should you
 choose to accept it, is to use the new CSS3 animation rules to build the most 
-dynamic biscuit dealership website the world has ever seen. 
+dynamic biscuit dealership website the world has ever seen. Bob wants his eyes
+to hurt.
 
 There are just 2 rules. Number 1 - no JavaScript. Number 2 - no Flash. I have
-prepared a repo with lots of examples of transitions, 2D transforms and 3D
+prepared a liberally commented repo with lots of examples of transitions, 2D transforms and 3D
 transforms. You can find it at https://github.com/CodeHubOrg/css-animations/.
+Download it, have a look, and feel free to borrow from it. Another useful tool
+is Eric Meyer's compass-animate. This will necessitate your installing the DocPad Compass
+plugin.
 
 #Alternatively
-If you are more interested in  DocPad than CSS3 animations a different path
-you might take is to implement a simple blog in DocPad. The
+If you are more interested in  DocPad than CSS3 animations, a different path
+you might take is to implement a simple blog in DocPad. Start by making a new
+layout for posts. You may also want to consult the DocPad [documentation](http://docpad.org). There is an excellent beginner's guide, which this workshop mirrors a little more closely than I intended(!), which goes in to more detail.
 
 #A Note on Browser Support
 

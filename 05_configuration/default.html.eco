@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <head>
-    <title><%= @getPreparedTitle() %></title> 
+    <title><%= @getPreparedTitle() %></title>
     <%- @getBlock("meta").toHTML() %>
     <%- @getBlock("styles").add(["/styles/style.css"]).toHMTL() %>    
   </head>
@@ -8,7 +8,8 @@
     <h1><%= @document.title %></h1>
     <h2>By <%= @document.author %></h2>
     <%- @content %>
-    <div id="object" class="animate"></div>    
+    <img src="/images/custard_cream_prince_of_biscuits.png" alt="The custard cream: A biscuit of distinction." />  
     <%- @getBlock("scripts").toHTML() %>
   </body>
 </html>
+

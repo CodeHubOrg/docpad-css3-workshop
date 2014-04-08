@@ -10,10 +10,11 @@ Each lesson has a readme.md describing the steps and sample code representing th
 
 ##Clone the lesson repo
 
-git clone https://github.com/CodeHubOrg/docpad-css3-workshop.git
-or
+git clone `https://github.com/CodeHubOrg/docpad-css3-workshop.git`
+or download the zip
 
-download the zip
+##Thanks to Duncan Woods
+For the idea to format workshops like this.
 
 Have fun!
 
