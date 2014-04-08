@@ -6,7 +6,7 @@ There are two sections - a JSON object and a line that exports them
 where we will define template data, helper
 methods, plugin configuration and environment configuration.
 
-```javascript
+```coffeescript
 #Define the Configuration
 docpadConfig = {
     # ...
