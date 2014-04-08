@@ -54,7 +54,7 @@ h2
 
 To include our stylesheet in our pages we will need to update our styles block. Change the line in our template to:
 ```
-<%- @getBlock("styles").add(["/styles/style.css"]).toHMTL() %>
+<%- @getBlock("styles").add(["/styles/style.css"]).toHTML() %>
 ```
 
 ##Scripts

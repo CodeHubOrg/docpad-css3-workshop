@@ -2,7 +2,7 @@
   <head>
     <title><%= @document.title %> | My Awesome Website</title>
     <%- @getBlock("meta").toHTML() %>
-    <%- @getBlock("styles").add(["/styles/style.css"]).toHMTL() %>    
+    <%- @getBlock("styles").add(["/styles/style.css"]).toHTML() %>    
   </head>
   <body>
     <h1><%= @document.title %></h1>
